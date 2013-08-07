@@ -1,0 +1,19 @@
+{
+  "author": "Juan La Jara",
+  "name": "responsivar",
+  "description": "Store variables in your media queries",
+  "homepage": "https://github.com/wixo/responsivar.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wixo/responsivar.js"
+  },
+  "main": "./responsivar.js",
+  "_release": "6ad1a01e6e",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "6ad1a01e6ef632fa51e6e85bd49a5e2325daae00"
+  },
+  "_source": "git://github.com/wixo/responsivar.js.git",
+  "_target": "*"
+}

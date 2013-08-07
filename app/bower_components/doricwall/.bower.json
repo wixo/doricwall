@@ -1,0 +1,24 @@
+{
+  "author": "Juan La Jara",
+  "name": "doricwall",
+  "description": "Doric angularjs directive",
+  "homepage": "https://github.com/wixo/doricwall",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wixo/doricwall"
+  },
+  "dependencies": {
+    "responsivar.js": "*",
+    "jquery": "~2.0.3"
+  },
+  "main": "./doricwall.js",
+  "_release": "f1d09b1a69",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "f1d09b1a69615b84eabadbe7c3cc84c7ec4c830a"
+  },
+  "_source": "git://github.com/wixo/doricwall.git",
+  "_target": "*",
+  "_direct": true
+}

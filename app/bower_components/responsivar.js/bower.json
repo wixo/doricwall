@@ -1,0 +1,12 @@
+{
+	"author": "Juan La Jara",
+	"name": "responsivar",
+	"description": "Store variables in your media queries",
+	"version": "0.0.1",
+	"homepage": "https://github.com/wixo/responsivar.js",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/wixo/responsivar.js"
+		},
+	"main": "./responsivar.js"
+}

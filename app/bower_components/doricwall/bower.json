@@ -1,0 +1,16 @@
+{
+	"author": "Juan La Jara",
+	"name": "doricwall",
+	"description": "Doric angularjs directive",
+	"version": "0.0.1",
+	"homepage": "https://github.com/wixo/doricwall",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/wixo/doricwall"
+		},
+	 "dependencies": {
+	 	"responsivar.js": "*",
+    "jquery": "~2.0.3"
+  },
+	"main": "./doricwall.js"
+}
