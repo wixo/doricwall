@@ -1,0 +1,93 @@
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+.header {
+	background: #9FD836;
+	border-radius: 0px;
+	text-align: center;
+}
+.plug {
+	background: #9FD836;
+	width: 100%;
+}
+.holder {
+	margin: 0 auto 0;
+	width: 80%;
+	-webkit-transition: .4s all linear;
+	   -moz-transition: .4s all linear;
+	     -o-transition: .4s all linear;
+	        transition: .4s all linear;
+}
+.grid {
+	height: 100%;
+	width: 100%;
+}
+.grid h3 {
+	display: inline;
+	line-height: 0;
+	margin: 0;
+	position: relative;
+	top: 4px;
+}
+.grid p {
+	display: inline;
+}
+.item {
+/*	border: 1px solid black;*/
+	display: block;
+	padding: 20px;
+	width: 100%;
+}
+.dorios-column {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.actions {
+	position: relative;
+	top: 40px;
+}
+
+.actions input {
+	margin: 0 0 20px 0;
+}
+
+@media screen and (min-width: 980px) {
+	.grid {
+		background: #F2C849;
+	}
+	.dorios-column {
+		width: calc(100% / 4);
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 979px) {
+	.holder {
+		width: 90%;
+	}
+	.grid {
+		background: #FF9926;
+	}
+	.dorios-column {
+		width: calc(100% / 3);
+	}
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+	.holder {
+		width: 95%;
+	}
+	.grid {
+		background: #F24130;
+	}
+	.dorios-column {
+		width: calc(100% / 2);
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.holder {
+		width: 100%;
+	}
+	.grid {
+		background: #1CBABA;
+	}
+}
